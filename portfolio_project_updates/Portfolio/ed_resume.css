@@ -1,0 +1,88 @@
+body{
+    /*background-color: lightblue;*/
+    background-image: linear-gradient(dodgerblue, yellow)
+}
+.container_resume{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(7,1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+.topLinks_resume{
+    text-align: center;
+    border: blue solid 1px;
+    /*background: lightyellow;*/
+    background-image: linear-gradient(silver, deepskyblue)
+}
+
+#bio_3{
+    grid-column: 2;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+#projects_3{
+    grid-column: 3;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+
+}
+#contact_3{
+    grid-column: 4;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+#main_3{
+    grid-column: 5;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#educate{
+    color: blue;
+    font-family: "Tlwg Typist";
+    grid-column: 2;
+    grid-row: 2;
+    /*margin-bottom: 100px;*/
+    /*margin-top: 50px;*/
+    /*padding-top: 25px;*/
+}
+#educate2{
+    color: blue;
+    grid-column: 2/6;
+    grid-row: 2;
+    padding-left: 15%;
+    padding-top: 2.5%;
+}
+/*#logo3{*/
+/*    grid-column: 2/4;*/
+/*    grid-row: 3;*/
+/*}*/
+/*#logo_python{*/
+/*    grid-column: 4;*/
+/*    grid-row: 3;*/
+/*}*/
+#resume_pdf{
+    color: blue;
+    font-family: "Tlwg Typist";
+    /*width: 85%;*/
+    grid-column: 2;
+    grid-row: 3;
+    padding-left: 15%;
+}
+
+#pdf_resume{
+    grid-column: 3/6;
+    grid-row: 3/7;
+    /*padding-left: 15%;*/
+    width: 85%;
+}
+

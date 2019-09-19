@@ -1,0 +1,76 @@
+html{
+
+    /*width: 50%;*/
+}
+body{
+    /*background-color: lightblue;*/
+    background-image: linear-gradient(dodgerblue, yellow)
+}
+.container_bio{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas:
+        "a b c d e f"
+        "g h h h i i"
+        "j h h h i i";
+    grid-gap: 5px;
+    padding: 10px;
+}
+.topLinks_2{
+    text-align: center;
+    border: blue solid 1px;
+    background-image: linear-gradient(silver, deepskyblue)
+    /*background-color: lightyellow;*/
+}
+
+#bio_2{
+
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+#resume_2{
+    grid-area: b;
+    /*grid-column: 3;*/
+    /*grid-row: 1;*/
+    margin-bottom: 100px;
+    margin-top:50px;
+    padding-top: 10px;
+    color: yellow;
+}
+
+#projects_2{
+    grid-area: c;
+    /*grid-column: 3;*/
+    /*grid-row: 1;*/
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+
+}
+#contact_2{
+    grid-area: d;
+    /*grid-column: 4;*/
+    /*grid-row: 1;*/
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#main_2{
+    grid-area: e;
+    /*grid-column: 5;*/
+    /*grid-row: 1;*/
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#bio_info{
+    grid-area: h;
+}
+#intro_b{
+    grid-area: i;
+}

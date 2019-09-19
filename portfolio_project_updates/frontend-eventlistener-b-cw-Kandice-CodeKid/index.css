@@ -1,0 +1,57 @@
+/*### Problem 1:*/
+/*   Create a simple grid system as seen in the attached picture. Put a button called "1" in your menu section and another button called "2" in your main section. Put the number 0 in your title. If you click the #1 button the title should change to "1" and the background to blue. If you click the #2 button the title should change to "2" and the background to red. Use classlist to change the background.*/
+
+html, body{
+    height:100%;
+    color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 6px;
+}
+header{
+    grid-column: 1/10;
+    grid-row: 1;
+    background-color: #36edeb;
+}
+ aside{
+     grid-column: 3/7;
+     grid-row: 2;
+     background-color: greenyellow;
+     text-align: center;
+
+ }
+ article{
+
+     grid-column: 7/8;
+     grid-row: 2;
+     background-color: magenta;
+     text-align: center;
+ }
+ section{
+     background-color: orange;
+     text-align: center;
+ }
+ #twin1{
+     grid-column: 3/6;
+     grid-row: 3;
+ }
+ #twin2{
+     grid-column: 6/8;
+     grid-row: 3;
+ }
+ footer{
+     grid-column: 1/10;
+     grid-row: 4;
+     background-color: blueviolet;
+ }
+
+ .blueBackground{
+     background-color: blue;
+ }
+ .redBackground{
+     background-color: red;
+ }
