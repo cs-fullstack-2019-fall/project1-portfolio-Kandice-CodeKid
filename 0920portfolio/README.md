@@ -47,3 +47,6 @@ http://sorenromer.com/
 https://www.clemsonwebdesign.com/
 https://daneden.github.io/animate.css/
 
+
+### Kenn's Notes:
+Very close to all points, but the navigation changing on each page would confuse a user.
