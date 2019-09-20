@@ -1,0 +1,150 @@
+body{
+    /*background-color: lightblue;*/
+    background-image: linear-gradient(dodgerblue, yellow)
+}
+.container_project{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+            "1 b c d e 2"
+            "3 f g h i 4"
+            "5 j k l m 6";
+    grid-gap: 5px;
+    padding: 10px;
+}
+.topLinks_4{
+    text-align: center;
+    border: blue solid 1px;
+    /*background-color: lightyellow;*/
+    background-image: linear-gradient(silver, deepskyblue)
+}
+
+#bio_4{
+    grid-area: b;
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+
+#resume_4{
+    grid-area: c;
+    /*grid-column: 3;*/
+    /*grid-row: 1;*/
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+
+}
+
+/*#projects_4{*/
+/*    grid-area: ;*/
+/*    !*grid-column: 3;*!*/
+/*    !*grid-row: 1;*!*/
+/*    margin-bottom: 100px;*/
+/*    margin-top: 50px;*/
+/*    padding-top: 25px;*/
+
+/*}*/
+#contact_4{
+    grid-area: d;
+    /*grid-column: 4;*/
+    /*grid-row: 1;*/
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+#main_4{
+    grid-area: e;
+    /*grid-column: 5;*/
+    /*grid-row: 1;*/
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+.container_skills{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas:
+            "01 a b c d 02"
+            "03 e f g h 04"
+            "05 i j k l 06"
+            "07 m n o p 08"
+            "09 q r s t 10";
+    grid-gap: 1px;
+    padding: 3px;
+}
+#skills_label{
+    font-family: "Tlwg Typist";
+    color: blue;
+    grid-area: a;
+}
+#pImage{
+    grid-area: b;
+}
+#cssImage{
+    grid-area: c;
+}
+#jsImage{
+    grid-area: d;
+}
+#htmlImage{
+    grid-area: f;
+}
+#jqImage{
+    grid-area: g;
+}
+#project_label{
+    font-family: "Tlwg Typist";
+    color: blue;
+    grid-area: i;
+}
+#reflection_label{
+    font-family: "Tlwg Typist";
+    color: blue;
+    grid-area: m;
+}
+#week1ref{
+    grid-area: n;
+    width: 10%;
+}
+#week2ref{
+    grid-area: o;
+    width: 10%;
+    padding-left: 8%;
+}
+#week3ref{
+    grid-area: p;
+    width: 10%;
+}
+#week4ref{
+    grid-area: r;
+    width: 10%;
+}
+#week5ref {
+    grid-area: s;
+    width: 10%;
+    padding-left: 8%;
+}
+#week6ref {
+    grid-area: t;
+    width: 10%;
+}
+#proj1{
+    grid-area: j;
+    width: 100%;
+    padding-left: 50px;
+}
+#show{
+    padding-left: 8%;
+    padding-top: 10%;
+}
+#proj2{
+    grid-area: k;
+}
+#color{
+    padding-left: 30%;
+}

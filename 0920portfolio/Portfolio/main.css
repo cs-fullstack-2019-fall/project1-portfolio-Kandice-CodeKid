@@ -1,0 +1,82 @@
+body{
+    /*background-color: lightblue;*/
+    background-image: linear-gradient(dodgerblue, yellow)
+}
+.container_main{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+.topLinks{
+    /*background-color: yellow;*/
+    text-align: center;
+    border: blue 1px solid;
+    /*background-color: greenyellow;*/
+    background-image: linear-gradient(silver, deepskyblue)
+
+}
+#bio{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+
+}
+#resume{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+
+}
+#projects{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+
+}
+#contact{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+
+}
+#home{
+    grid-column: 6;
+    grid-row: 1/2;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+    opacity: 0;
+
+}
+#welcome{
+    /*font-size: larger;*/
+    color: black;
+    text-align: center;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    font-family: "Tlwg Typist";
+}
+#intro{
+    color: black;
+    text-align: center;
+    grid-column: 2/6;
+    grid-row: 3/4;
+    font-family: "Tlwg Typist";
+}
+#image{
+    grid-column: 2/6;
+    grid-row: 4/8;
+    width: 100%;
+    /*background-color: yellow;*/
+    /*background-image: url("memphis.jpg");*/
+}

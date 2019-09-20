@@ -1,0 +1,102 @@
+/*html{*/
+/*    height: 50%;*/
+
+/*}*/
+body{
+    /*background-color: lightblue;*/
+    background-image: linear-gradient(dodgerblue, yellow)
+    /*background-image: url("clouds.jpg");*/
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+    /*padding-top: 100px;*/
+    /*width: 50%;*/
+    /*margin-left: 300px;*/
+
+}
+/*#myVideo {*/
+/*    position: fixed;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    min-width: 100%;*/
+/*    min-height: 100%;*/
+/*}*/
+/*Main page CSS*/
+.container_main{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 5px;
+    padding: 10px;
+}
+.topLinks{
+    /*background-color: yellow;*/
+    text-align: center;
+    border: blue 1px solid;
+    /*background-color: lightyellow;*/
+    background-image: linear-gradient(silver, deepskyblue)
+}
+#bio{
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+
+}
+#resume{
+    grid-column: 3/4;
+    grid-row: 1;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+
+}
+#projects{
+    grid-column: 4/5;
+    grid-row: 1;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+
+}
+#home{
+    grid-column: 5/6;
+    grid-row: 1;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#google_form{
+    padding-left: 28%;
+}
+
+
+
+
+/*Bio Css*/
+header{
+    color: blue;
+    text-align: center;
+    grid-column: 3/5;
+    grid-row: 2;
+    /*margin-right: 150px;*/
+    /*margin-left: 150px;*/
+}
+/*form{*/
+/*    background-color: slateblue;*/
+/*    border: #1f28ed solid 2px;*/
+/*    grid-column: 2/6;*/
+/*    grid-row: 3/6 ;*/
+/*    !*padding-left: 12px;*!*/
+/*    padding: 12px;*/
+/*    !*padding-bottom: 10px;*!*/
+/*    !*margin-right: 250px;*!*/
+/*    !*margin-left: 250px;*!*/
+/*}*/
+/*#message{*/
+/*    width: 260px;*/
+/*    height: auto;*/
+/*}*/
+
+
